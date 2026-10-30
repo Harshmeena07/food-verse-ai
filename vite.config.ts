@@ -4,8 +4,9 @@ import path from 'path';
 import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
+    return {
   base: '/food-verse-ai/',
-  return {
+
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
